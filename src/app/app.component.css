@@ -3,3 +3,7 @@ h1{
     background-color: #67729D;
     color: #E7BCDE;
 }
+
+.container{
+    overflow: auto;
+}

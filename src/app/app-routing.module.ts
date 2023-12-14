@@ -6,9 +6,12 @@ import { UpdateCustomerComponent } from './update-customer/update-customer.compo
 import { ProductListComponent } from './component/product-list/product-list.component';
 import { CreateProductComponent } from './component/create-product/create-product.component';
 import { UpdateProductComponent } from './component/update-product/update-product.component';
+import { HomeComponent } from './component/home/home.component';
+import { AboutComponent } from './component/about/about.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'customers', pathMatch: 'full'},
+  {path: '', component: HomeComponent},
+  {path: 'about', component: AboutComponent},
 
   //customers path
   {path: 'customers', component: CustomerListComponent},

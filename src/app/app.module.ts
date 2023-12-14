@@ -12,6 +12,8 @@ import { UpdateCustomerComponent } from './update-customer/update-customer.compo
 import { CreateProductComponent } from './component/create-product/create-product.component';
 import { ProductListComponent } from './component/product-list/product-list.component';
 import { UpdateProductComponent } from './component/update-product/update-product.component';
+import { HomeComponent } from './component/home/home.component';
+import { AboutComponent } from './component/about/about.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { UpdateProductComponent } from './component/update-product/update-produc
     UpdateCustomerComponent,
     CreateProductComponent,
     ProductListComponent,
-    UpdateProductComponent
+    UpdateProductComponent,
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
